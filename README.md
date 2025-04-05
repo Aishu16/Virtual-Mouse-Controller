@@ -58,8 +58,9 @@ pip install SpeechRecognition
 pip install pyttsx3
 pip install pyaudio
 
+---
 
-## ❗ If `pyaudio` Installation Fails (on Windows):
+### ❗ If `pyaudio` Installation Fails (on Windows):
 pip install pipwin
 pipwin install pyaudio
 
@@ -68,12 +69,12 @@ pipwin install pyaudio
 ├── main.py             # Main entry file – lets you choose control mode by voice
 ├── Voice_control.py    # Handles voice-based mouse actions
 ├── Hand_gesture.py     # Handles hand gesture recognition and mouse control
-
-
-# 🚀 Step 4: Run the Program
-
+```
+---
+## 🚀 Step 4: Run the Program
+```bash
 python main.py
-
+```
 You'll be prompted to choose your input mode (voice or hand gesture).
 Just say "voice based mouse control", "hand based mouse control", or "exit" to proceed.
 
