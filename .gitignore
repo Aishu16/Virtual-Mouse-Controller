@@ -1,0 +1,39 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# VS Code settings
+.vscode/
+
+# Mac OS and Windows files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Log files and environment settings
+*.log
+*.env
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Python-pip temporary files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# SpeechRecognition temp
+audio.wav
